@@ -16,7 +16,6 @@ from app.common.constants import MCP_BASE_URL, MCP_ENDPOINT
 async def get_mcp_tools() -> list[BaseTool]:
     """
     获取MCP工具
-    :param nio_user_info: NIO用户信息
     :return: MCP工具
     """
     multi_server_mcp_client = MultiServerMCPClient(
