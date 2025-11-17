@@ -60,5 +60,6 @@ if __name__ == "__main__":
         host="localhost",
         port=8001,
         reload=True,
-        log_level="info"
+        log_level="info",
+        use_colors=True
     )
